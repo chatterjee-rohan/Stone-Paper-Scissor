@@ -3,14 +3,18 @@ Welcome to the Stone-Paper-Scissors game repository! This project is a simple, f
 
 How to Play:
 Clone the repository.
+
 Run the rock_paper_scissors.py script.
+
 Follow the prompts to select your move (A for Stone, B for Paper, C for Scissor).
+
 See the results and enjoy the game!
 
 Requirements:
 Python 3.x
+
 Example Usage:
-sh
+
 Copy code
 git clone https://github.com/yourusername/rock-paper-scissors.git
 cd rock-paper-scissors
