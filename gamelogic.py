@@ -20,11 +20,13 @@ no_suffix = {1: "st",2: "nd",3: "rd",4: "th",5: "th",6: "th",7: "th",8: "th",9: 
 
 i = 1
 while(i<=round):
-
     computer_choice = random.choice(['A','B','C']) #Random Choice by Computer
     print("All the choices:-\nA : Stone\tB : Paper\tC : Scissor")
     print("-"*50)
-    your_choice = input("Enter your Choice(A/B/C) :") #User's Choice
+    your_choice = input("Enter your Choice(A/B/C) :").upper() #User's Choice
+    if your_choice not in Dict:
+        print("Invalid choice, please select A, B, or C.")
+        continue
     #This line is for telling the user which He choice and which input is chosen by Computer
     print(f"{i} {no_suffix[i]} Round:")
     print(f"You chose {Dict[your_choice]}\nComputer chose {Dict[computer_choice]}")
