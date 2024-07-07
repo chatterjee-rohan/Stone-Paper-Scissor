@@ -22,4 +22,3 @@ Randomized computer choices
 Score tracking across multiple rounds
 Enjoy playing and feel free to contribute!
 
-This description provides a clear and concise overview of the project, instructions on how to run it, and highlights key features.
