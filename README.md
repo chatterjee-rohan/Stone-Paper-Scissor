@@ -6,6 +6,7 @@ Clone the repository.
 Run the rock_paper_scissors.py script.
 Follow the prompts to select your move (A for Stone, B for Paper, C for Scissor).
 See the results and enjoy the game!
+
 Requirements:
 Python 3.x
 Example Usage:
@@ -14,6 +15,7 @@ Copy code
 git clone https://github.com/yourusername/rock-paper-scissors.git
 cd rock-paper-scissors
 python rock_paper_scissors.py
+
 Features:
 Interactive command-line interface
 Randomized computer choices
